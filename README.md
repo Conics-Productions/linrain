@@ -1,35 +1,16 @@
 # INRain
 
 A super simple beginner scripting language — a mix of batch/shell and Python.
-Runs `.inr` and `.inrain` files. Made to work off a USB drive, on Windows,
-Linux, or macOS.
+Runs `.inr` and `.inrain` files. Made to work off a USB drive, on Linux, or macOS.
 
 ## Requirements
 - Python 3 installed on the machine (get it from python.org on Windows, or
   use your package manager on Linux/macOS — e.g. `sudo apt install python3`)
 - tkinter for GUI commands:
-  - Windows/macOS: bundled with Python automatically
+  - macOS: bundled with Python automatically
   - Linux: usually a separate package, e.g. `sudo apt install python3-tk`
 
 ## Setup (one time per computer)
-
-### Windows
-1. Copy the whole `INRain` folder onto your USB drive.
-2. Plug the USB in, open CMD, `cd` into the INRain folder:
-   ```
-   E:
-   cd INRain
-   ```
-3. Run this once so `INRain` works from anywhere:
-   ```
-   setup_inrain.bat
-   ```
-   (Close and reopen CMD after this.)
-4. Run scripts with:
-   ```
-   INRain myscript.inr
-   ```
-
 ### Linux / macOS
 1. Copy the whole `INRain` folder onto your USB drive (or anywhere on disk).
 2. Open a terminal and `cd` into the INRain folder:
