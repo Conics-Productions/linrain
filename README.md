@@ -1,6 +1,6 @@
 # INRain
 
-A super simple beginner scripting language — a mix of batch/shell and Python.
+A super simple beginner scripting language — a mix of shell and Python.
 Runs `.inr` and `.inrain` files. Made to work off a USB drive, on Linux, or macOS.
 
 ## Requirements
